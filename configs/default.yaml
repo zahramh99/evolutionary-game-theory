@@ -1,0 +1,19 @@
+# Simulation Parameters
+world:
+  size: 50
+  topology: "grid"  # Options: grid, small_world, scale_free
+
+evolution:
+  mutation_rate: 0.01
+  elitism: 0.2
+  selection_pressure: 1.5
+
+strategies:
+  initial_distribution:
+    TFT: 0.4
+    PAVLOV: 0.3
+    RANDOM: 0.3
+
+visualization:
+  save_interval: 10  # Generations between plot saves
+  colormap: "RdYlGn"  # For cooperation heatmaps
